@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1cece;
+}
+
+.nazva{
+    width: 80%;
+    text-align: center;
+}
+
+.btn{
+    width: 50%;
+}
+
+button{
+    cursor: pointer;
+    margin-left: 10px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #a29cb9;
+    outline: none;
+    color: #fff;
+}
+
+.rozmiry{
+    width: 40%;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ul>li{
+    list-style-type: none;
+}
+
+input{
+    width: 50px;
+    border-radius: 20%;
+    outline: none;
+}
+
+.buttons{
+    width: 45%;
+}
+
+section{
+    display: flex;
+    justify-content: space-around;
+}
+
+.some_block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#myDetail{
+    width: 220px;
+    height: 220px;
+    margin-top: 50px;
+    border: 1px solid #000;
+}
+
+#akula{
+    width: 270px;
+    height: 200px;
+    background-image: url('image/akula.png');
+}
